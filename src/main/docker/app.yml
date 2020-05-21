@@ -1,0 +1,17 @@
+version: '3'
+services:
+  testopt-app:
+    image: testopt
+    volumes:
+      - /root/logs:/logs
+    environment:
+      - JAVA_OPTS=-Xmx1024m -Xms512m
+      - SPRING_PROFILES_ACTIVE=dev,no-liquibase
+      - SPRING_CLOUD_CONFIG_URI=http://admin:$${jhipster.registry.password}@jhipster-registry:8761/config
+      - SERVER_PORT=8082
+      - JHIPSTER_SLEEP=30 # gives time for other services to boot before the application
+
+networks:
+  default:
+    external:
+      name: hermes

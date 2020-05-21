@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.hermes.testopt"
+    },
+    "jhipsterVersion": "6.7.0",
+    "applicationType": "microservice",
+    "baseName": "testopt",
+    "packageName": "com.hermes.testopt",
+    "packageFolder": "com/hermes/testopt",
+    "serverPort": "8082",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "ZTQ5NjMxNDc2YmVmNDhjZTM2YmMxMjg3YjFjYzM5N2I4YTE0YmFkNDJlMWU0MTI3NWY3OGQxYzIyODRjMTc1OWRhYzQzMmU4OGEwNjk5OTFiZjU4MDk2MGE3MjhlYmNhZDc5ZWY0MGUwOTE0NDYzZTYzYjBlNmY2Yjc1OTM5Njk=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1581468979408,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
