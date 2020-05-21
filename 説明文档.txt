@@ -9,6 +9,7 @@
 货装子表：字段包括ID，父ID，重量
 跟据货装表中的批次，产生对应条数的子记录。
 
+数据库脚本：在sql文件夹中，shipment，shipment_children为业务表，其他为系统表。
 架构说明：项目srpingBoot，mybatisplus，swagger
 项目启动类：com.hermes.testopt.TestoptApp
 业务代码所在位置：com.hermes.testopt.modules
